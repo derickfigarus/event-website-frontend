@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgb(71, 118, 245),white);
+    padding: 10px 50px;
+}
+#logo{
+    width: 150px;
+    height: auto;
+}
+.navlink{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: x-small;
+    font-weight: bolder;
+}
+footer{
+    color: white;
+    font-size: small;
+    text-align: center;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black ;
+    padding: 10px;
+}
+#events{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+}
+.event_card{
+    width: 250px;
+    box-shadow: 0px 8px 8px grey;
+    padding: 50px;
+}
+#details{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    gap: 20px;
+}
+.details_card{
+    width: 500px;
+    box-shadow: 0px 8px 8px grey;
+    padding: 50px;
+}
+.apply_form input{
+    justify-content: center; 
+}
+.apply_form label{
+    display: block;
+    width: 100%
+    margin 5px 0;
+    
+} 
